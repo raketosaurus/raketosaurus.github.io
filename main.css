@@ -1,3 +1,7 @@
+.bigshit {
+background-image:url('C:\Downloads\EKMGEPc.jpg');
+}
+
 .bigshit h1 {
 color: blue;
 font-family: 'Shift', sans-serif;
@@ -6,6 +10,8 @@ font-family: 'Shift', sans-serif;
 .bigshit p {
 color: red;
 }
+
+
 
 .nav a {
   color: #5a5a5a;
