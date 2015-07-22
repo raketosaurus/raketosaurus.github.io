@@ -1,16 +1,72 @@
-ul {list-style: none;padding: 0px;margin: 0px; width: 400px; margin-left: auto; margin-right: auto; }
-  ul { font-family: 'Shift', Helvetica;}
-  ul li {display: block;position: relative;float: left;border:1px solid #000}
-  li ul {display: none;}
-  ul li a {display: block;background: #0099cc;padding: 5px 10px 5px 10px;text-decoration: none;
-           white-space: nowrap;color: #fff;}
-  ul li a:hover {background: #f00;}
-  li:hover ul {display: block; position: absolute;}
-  li:hover li {float: none;}
-  li:hover a {background: #f00;}
-  li:hover li a:hover {background: #000;}
-  #drop-nav li ul li {border-top: 10px;}
-  li { font-family: 'Shift', Helvetica;}
+.nav {margin: auto; text-align: center; font-family: 'Shift', Helvetica; font-style: bold;
+text-transform: uppercase; text-decoration: underline;}
+.nav { background: -webkit-linear-gradient(top, #efefef 0%,#000 100%); }
+.nav ul ul {
+	display: none;
+}
+
+.nav ul li:hover > ul {
+		display: block;
+	}
+
+.nav ul {
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+.nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+.nav ul li {
+	float: right;
+}
+
+.nav ul li:hover {
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+	}
+.nav ul li:hover a {
+			color: #fff;
+		}
+	
+.nav ul li a {
+		display: block; padding: 25px 40px;
+		color: #757575; text-decoration: none;
+	}
+
+.nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+.nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+.nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}	
+.nav ul ul li a:hover {
+				background: #4b545f;
+			}
+
+.nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
+
+
 
 body, html, head {
 	/* important */
@@ -31,17 +87,22 @@ height: 1920px;
 margin-top: auto;
 }
 
+
+
 .bigshit h1 {
 text-align: center;
 margin: auto;
-color: blue;
+color: lightblue;
 font-style: bold;
 font-family: 'Shift', Helvetica;
 }
 
 .bigshit p {
-color: red;
+margin-top: 0px;
+text-align: center;
+color: lightblue;
 font-style: bold;
+font-family: 'Shift', Helvetica;
 }
 
 
@@ -54,7 +115,7 @@ font-style: bold;
   text-transform: uppercase;
 }
 
-.nav li {
-  display: inline;
+#.nav li {
+
   text-transform: uppercase;
  }
