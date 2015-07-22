@@ -1,5 +1,4 @@
-
-  ul {list-style: none;padding: 0px;margin: 0px; width: 400px; margin-left: auto; margin-right: auto; }
+ul {list-style: none;padding: 0px;margin: 0px; width: 400px; margin-left: auto; margin-right: auto; }
   ul { font-family: 'Shift', Helvetica;}
   ul li {display: block;position: relative;float: left;border:1px solid #000}
   li ul {display: none;}
@@ -15,13 +14,12 @@
 
 .bigshit {
 background-image:url('EKMGEPc.jpg');
-height: 1000px
-margin-left: auto;
-margin-right: auto;
+height: 1920px;
+margin-top: auto;
 }
 
 .bigshit h1 {
-position: relative;
+text-align: center;
 margin: auto;
 color: blue;
 font-style: bold;
@@ -29,8 +27,6 @@ font-family: 'Shift', Helvetica;
 }
 
 .bigshit p {
-position: relative;
-margin: auto;
 color: red;
 font-style: bold;
 }
