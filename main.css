@@ -19,16 +19,18 @@ height: 1000px
 
 .bigshit h1 {
 color: blue;
+font-style: bold;
 font-family: 'Shift', Helvetica;
 }
 
 .bigshit p {
 color: red;
+font-style: bold;
 }
 
 
 
-.nav a {
+#.nav a {
   color: #5a5a5a;
   font-size: 11px;
   font-weight: bold;
