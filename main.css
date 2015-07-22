@@ -23,12 +23,16 @@ margin-bottom: auto;
 }
 
 .bigshit h1 {
+position: relative;
+margin: auto;
 color: blue;
 font-style: bold;
 font-family: 'Shift', Helvetica;
 }
 
 .bigshit p {
+position: relative;
+margin: auto;
 color: red;
 font-style: bold;
 }
@@ -45,3 +49,5 @@ font-style: bold;
 
 .nav li {
   display: inline;
+  text-transform: uppercase;
+ }
